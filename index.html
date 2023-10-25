@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    
+  </head>
+  <body>
+      <div class="container" id="pr">
+        <div class="parallax">
+            <img class="sea" src="img/GettyImages-965393632.jpg">
+            <img class="fish" src="img/fish (1)-min.png">
+           
+            <img class="fish" src="img/fish (2)-min.png">
+            <img class="fish" src="img/fish (3)-min.png">
+            <img class="fish" src="img/fish (4)-min.png">
+            <img class="fish" src="img/fish (5)-min.png">
+            <img class="fish" src="img/fish (6)-min.png">
+           
+            <h1 id="s">fish fan</h1>
+            
+        </div>
+        
+      </div>
+      
+      <h2 id="tit">The challenge of creating a parallax effect using only HTML and CSS</h2>
+      
+  
+
+ <script>
+  document.addEventListener("DOMContentLoaded", function () {
+  const pr = document.getElementById("pr");
+  const tit = document.getElementById("tit");
+
+  pr.addEventListener("scroll", function () {
+      if (pr.scrollTop >= 600) {
+          tit.style.opacity = 1;
+      } else {
+          tit.style.opacity = 0;
+      }
+  });
+});
+ </script>
+</body>
+
+  </html>
