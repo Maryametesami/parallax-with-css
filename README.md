@@ -22,12 +22,6 @@ Users should be able to:
 - View a page from a responsive site coded by css.
 - See the parallax effect designed inside the page coded by html & css.
 
-### Screenshot
-
-
-- Desktop screenshot : [Desktop-screenshot](image/Desktop.png/)
-
-- mobile screenshot:[Mobile-screenshot](image/mobile.png/)
 
 
 
